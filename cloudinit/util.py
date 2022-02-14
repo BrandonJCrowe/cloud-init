@@ -576,6 +576,7 @@ def _get_variant(info):
         linux_dist = info["dist"][0].lower()
         if linux_dist in (
             "almalinux",
+            "ol",
             "alpine",
             "arch",
             "centos",
